@@ -1,0 +1,15 @@
+name: Feature proposal
+description: Propose a focused, generally reusable capability
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem and use case
+    validations:
+      required: true
+  - type: textarea
+    id: boundary
+    attributes:
+      label: Proposed public boundary and alternatives
+    validations:
+      required: true

@@ -1,0 +1,21 @@
+name: Bug report
+description: Report a reproducible GlossAnchor problem
+body:
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Minimal synthetic reproduction
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected and actual behavior
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: GlossAnchor, Node.js, and framework versions
+    validations:
+      required: true
